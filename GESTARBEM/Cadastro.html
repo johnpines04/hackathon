@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/styles/style.css"></head>
+<br>
+    <div class="faixa">
+        <img class="imagem-slide" height="400" width="600" src="/images/logo.png" alt="Slide 3" />
+    <div class="container1">
+        <title>Página de Cadastro</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Página de Cadastro</h2>
+            <form action="processa_cadastro.php" method="post">
+                    <label  class="form-group" for="name">Nome:
+                    <input type="text" id="name" name="name" required>
+                  
+               
+
+                    <label for="cpf">CPF:
+                    <input type="text" id="cpf" name="cpf" required>
+                    
+               
+                
+                    <label for="email">E-mail:
+                    <input type="email" id="email" name="email" required>
+                   
+               
+
+                    <label for="password">Senha:
+                    <input type="password" id="password" name="password" required>
+                    
+               
+
+                    <label for="adress">Endereço:</label>
+                    <input type="text" id="adress" name="adress" required>
+               
+
+                    <label for="sus">Número cartão do SUS:</label>
+                    <input type="text" id="sus" name="sus" required>
+               
+
+                    <label for="nascimento">Data de Nascimento:</label>
+                    <input type="text" id="nascimento" name="nascimento" required>
+             
+
+                    <label for="nmae">Nome da Mãe:</label>
+                    <input type="text" id="nmae" name="nmae" required>
+              
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" required>
+               
+
+                    <label for="gestações">Número de gestações:</label>
+                    <input type="text" id="gestações" name="gestções" required>
+                <form>
+<div>
+                        <label for="pcd">Você é uma Pessoa com Deficiência (PCD)?</label>
+                        <select id="pcd" name="pcd">
+                            <option value="Sim">Sim</option>
+                            <option value="Não">Não</option>
+                        </select>
+                        <div>
+                            <br>
+                </form>
+                    <button type="submit">Cadastrar</button>
+                
+            </form>
+    </body>
+    </html>
