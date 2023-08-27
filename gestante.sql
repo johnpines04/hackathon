@@ -1,5 +1,5 @@
-create database gravrida;
-use gravrida;
+create database gravida;
+use gravida;
 
 create table cadastro (
 nome varchar(255) not null,
